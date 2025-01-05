@@ -1,28 +1,29 @@
-// function test(){
-//     let b="bye"
-//     if(true){
-//         var b="helo"
-//         console.log(b)
-//     }
-//     console.log(b)
+function test(){
+    var b="bye"
+    if(true){
+        let b="helo"
+        console.log(b)
+    }
+    console.log(b)
 
-// }
+}
 
-// test()
+test()
 
 
 // console.log(count)
 // var count=1
 
 
-// function abc(){
-//     console.log(a)
-//     var a=10
-//     let b=20
-//     const c=30
-// }
+function abc(){
+    console.log(a)
+    var a=10
+    // let b=20
+    // const c=30
+    console.log(a)
+}
 
-// abc()
+abc()
 
 // function test(){
 //     var a=10

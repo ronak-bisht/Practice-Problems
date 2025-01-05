@@ -57,23 +57,23 @@
 
 
 
- var status="hello"
+//  var status="hello"
 
-setTimeout(()=>{
-    const status="not hello"
-    const data={
-        status:"data hello",
-        getStatus(){
-            return this.status
-        },
-        newStatus:()=>{
-         return this.status
-        }
-    }
-    console.log(data.getStatus())
-    console.log(data.newStatus())
-    console.log(data.getStatus.call(this))
-},0)
+// setTimeout(()=>{
+//     const status="not hello"
+//     const data={
+//         status:"data hello",
+//         getStatus(){
+//             return this.status
+//         },
+//         newStatus:()=>{
+//          return this.status
+//         }
+//     }
+//     console.log(data.getStatus())
+//     console.log(data.newStatus())
+//     console.log(data.getStatus.call(this))
+// },0)
 
 
 // const animal=[
